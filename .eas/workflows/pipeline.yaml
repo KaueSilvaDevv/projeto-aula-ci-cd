@@ -13,7 +13,7 @@ jobs:
   test:
     defaults:
       run:
-        working_directory: ./
+        working_directory: ./.eas
 
     steps:
       - uses: eas/checkout
